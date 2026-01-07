@@ -1,0 +1,80 @@
+
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgb(252, 237, 237);
+    padding: 20px;
+    text-align: center;
+    z-index: 999;
+  }
+
+  .main-nav.open {
+    display: flex;
+    z-index: 1;
+  }
+
+  .menu-toggle {
+    display: block;
+    z-index: 1;
+  }
+
+  header {
+    flex-wrap: nowrap;
+    z-index: 1;
+  }
+
+
+   .page_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* вирівняти по центру */
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    padding: 15vh 5vw;
+  }
+
+
+  .page_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* вирівняти по центру */
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    padding: 5vh 5vw;
+  }
+
+  .service_item {
+    position: static;     /* прибираємо absolute */
+    width: 100%;          /* на всю ширину */
+    max-width: 90vw;      /* щоб мати відступи з боків */
+    margin: 20px 0;       /* вертикальні проміжки */
+    height: auto;         /* автоматична висота */
+  }
+
+
+
+
+  #footer {
+    padding: 50px 15px;
+  }
+
+  .footer-title {
+    font-size: 1.7rem;
+  }
+
+  .footer-email {
+    font-size: 1.1rem;
+  }
+
+  .social-links a img {
+    width: 32px;
+    height: 32px;
+  }
